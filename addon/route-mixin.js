@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import SuspendableProxy from 'suspendable-proxy';
+import SuspendableProxy from './proxy';
 
 export default Ember.Mixin.create({
   suspendOnSetup: true,

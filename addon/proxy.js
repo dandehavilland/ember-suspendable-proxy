@@ -47,7 +47,7 @@ var SuspendableProxy = Ember.Object.extend(Ember.Observable, {
 
       } else {
 
-        proxiedValue = SuspendableObserver.create({
+        proxiedValue = SuspendableProxy.create({
           content: proxiedValue,
           isSuspended: isSuspended
         });
@@ -97,4 +97,4 @@ var SuspendableProxy = Ember.Object.extend(Ember.Observable, {
   },
 });
 
-export default SuspendableObserver;
+export default SuspendableProxy;
