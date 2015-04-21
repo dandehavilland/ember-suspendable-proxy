@@ -1,6 +1,6 @@
-# Ember-suspendable-proxy
+# ember-suspendable-proxy
 
-This README outlines the details of collaborating on this Ember addon.
+
 
 ## Installation
 
